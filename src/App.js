@@ -21,28 +21,28 @@ function App() {
             titulo='Reaction'
             resultado='80'
             colorTitulo='hsl(0, 100%, 67%)'
-            colorBackgound='hsla(0, 100%, 67%, 0.094)'
+            colorBackground='hsla(0, 100%, 67%, 0.094)'
           />
           <Categoria
             imagen='memory'
             titulo='Memory'
             resultado='92'
             colorTitulo='hsl(39, 100%, 56%)'
-            colorBackgound='hsla(39, 100%, 56%, 0.094)'
+            colorBackground='hsla(39, 100%, 56%, 0.094)'
           />
           <Categoria
             imagen='verbal'
             titulo='Verbal'
             resultado='61'
             colorTitulo='hsl(166, 100%, 37%)'
-            colorBackgound='hsla(166, 100%, 37%, 0.094)'
+            colorBackground='hsla(166, 100%, 37%, 0.094)'
           />
           <Categoria
             imagen='visual'
             titulo='Visual'
             resultado='72'
             colorTitulo='hsl(234, 85%, 45%)'
-            colorBackgound='hsla(234, 85%, 45%, 0.094)'
+            colorBackground='hsla(234, 85%, 45%, 0.094)'
           />
           <BotonContinue/>
       </div>
