@@ -1,0 +1,23 @@
+.boton-continue {
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    padding: 20px 0;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    margin: 10px 0 0 0;
+}
+
+@media (min-width: 500px){
+    .boton-continue{ 
+        cursor: pointer;
+        padding: 15px 0;
+    }
+
+    .boton-continue:hover {
+        background: linear-gradient(
+            hsl(252, 100%, 67%),
+            hsl(241, 81%, 54%)
+        );
+    }
+}

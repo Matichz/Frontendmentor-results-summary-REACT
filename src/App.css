@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.contenedor {
+  width: 100%;
+}
+
+.contenedor-result-clients {
+  background: linear-gradient(
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.text-your-result {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: hsl(241, 100%, 89%);
+  padding: 20px;
+}
+
+.contenedor-circle-number {
+  background: linear-gradient(
+  150deg,hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.number-result {
+  font-size: 3rem;
+  font-weight: 800;
+  color: hsl(0, 0%, 100%);
+}
+
+.number-limit {
+  color: hsl(241, 100%, 89%);
+  font-weight: 400;
+}
+
+.text-great {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.description-tests {
+  color:hsl(241, 100%, 89%);
+  max-width: 18rem;
+  padding: 10px 0 50px 0;
+}
+
+.contenedor-summary {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text-summary {
+  font-size: 1.5rem;
+  color: hsl(224, 30%, 27%);
+}
+
+.text-categoria{ 
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+@media (min-width: 500px){
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor {
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 40px hsla(224, 32%, 44%, 0.338);
+    border-radius: 40px;
+  }
+  .contenedor-result-clients {
+    height: 33rem;
+    width: 22rem;
+    justify-content: flex-start;
+    border-radius: 40px;
+    padding-top: 15px;
+  }
+
+  .text-your-result {
+    font-size: 1.3rem;
+    padding: 30px;
+  }
+  
+  .contenedor-circle-number {
+    width: 210px;
+    height: 210px;
+    margin-bottom: 30px;
+    gap: 0px;
+  }
+
+  .number-result {
+    font-size: 4rem;
+  }
+  
+  .number-limit {
+    color: hsl(241, 100%, 89%);
+    font-weight: 400;
+  }
+
+  .text-great {
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  
+  .description-tests { 
+    max-width: 14rem;
+    padding: 15px 0 20px 0;
+  }
+
+  .contenedor-summary {
+    width: 25rem;
+    padding: 0 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+

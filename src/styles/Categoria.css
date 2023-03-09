@@ -1,0 +1,30 @@
+.contenedor-categorias {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+.icon-categoria {
+    max-width: 20px;
+}
+
+.result-categotia {
+    position: absolute;
+    right: 20px;
+}
+
+.result-categotia-clients {
+    font-weight: 800;
+    color: hsl(224, 30%, 27%);
+}
+
+.limit-tests-clients {
+    font-weight: 700;
+    color: hsl(0, 0%, 49%);
+}
+
+
+
