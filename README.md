@@ -1,4 +1,3 @@
-# Imagen de resultado
 ![](https://github.com/Matichz/results-summary-component-main-REACT/blob/main/Imagen%20resultado.png)
 
 
