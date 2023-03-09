@@ -1,7 +1,7 @@
-# resultado desktop
+# Resultado desktop
 ![](https://github.com/Matichz/results-summary-component-main-REACT/blob/main/Imagen%20resultado.png)
 
-# resultado movile
+# Resultado movile
 ![](https://github.com/Matichz/Frontendmentor-results-summary-REACT/blob/main/image%20resultado%20movile.png)
 
 
